@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoUri = 'mongodb://localhost/sdc';
+const mongoUri = 'mongodb://18.221.178.137/sdc_mongo';
 
 mongoose.connect(mongoUri, {
   useNewUrlParser: true,

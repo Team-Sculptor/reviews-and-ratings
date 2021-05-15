@@ -46,7 +46,7 @@ app.put('/reviews/:review_id/helpful', function (req, res) {
 
 })
 
-let port = 8080
+let port = 3000
 
 app.listen(port, () => {
   console.log(`listening on port ${port}`);
